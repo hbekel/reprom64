@@ -1,0 +1,35 @@
+GAL16V8
+REPROM
+
+KS   BS  CS  K0  K1 C0  C1  B0  BA12 GND
+BA14 CBS CKS KBS OE A15 A14 A13 A12  VCC
+
+OE  = KS * BS * CS
+A15 = /BS + /CS + KS
+A14 = /CS + /KS * K1
+A13 = /KS * K0 + /BS * B0 + /CS * C1
+A12 = /CS * C0 + CS * BA12
+
+CKS = /KBS * BA14
+CBS = /KBS * /BA14
+
+DESCRIPTION:
+
+64k Eprom (27c512):
+
+f000-ffff: Charset 11
+e000-f000: Charset 10
+d000-e000: Charset 01
+c000-d000: Charset 00
+
+a000-c000: Basic 1
+8000-a000: Basic 0
+
+6000-8000: Kernal 11
+4000-6000: Kernal 10
+2000-4000: Kernal 01
+0000-2000: Kernal 00
+
+C0 and C1 select one of four Charsets
+B0 selects one of two basic roms
+K0 and K1 select one of four Kernals
