@@ -532,9 +532,9 @@ F 3 "" H 5350 7500 60  0000 C CNN
 $EndComp
 Text Label 4750 1200 3    60   ~ 0
 BCS
-Text Label 4500 1100 2    60   ~ 0
-BS
 Text Label 5000 1100 0    60   ~ 0
+BS
+Text Label 4500 1100 2    60   ~ 0
 CS
 $Comp
 L CONN_02X03 P3
