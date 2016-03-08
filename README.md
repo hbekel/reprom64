@@ -21,3 +21,7 @@ socket, and plug into the basic and charset sockets to the left and
 right for the chip select signals. In new boards, the adaptor will sit
 in the combined kernal and basic socket, and only plug into the
 charset socket to the left.
+
+Please refer to the [project
+page](http://www.henning-bekel.de/reprom64) for detailed
+documentation.
