@@ -1,4 +1,4 @@
-#reprom
+#reprom64
 *rom replacement board for the C64*
 
 This is a single rom adapter for the C64/C64C replacing all the rom
@@ -13,7 +13,7 @@ three separate rom 24-pin rom chips layed out next to each other. The
 newer revisions (250469) combine kernal and basic rom in a single
 28-pin chip next to the charset rom.
 
-The plan is to make a single board layout that can be used for both
+This is a single board layout that can be used for both
 c64 mainboard types. By soldering in pin headers and jumper wires in
 different locations, the resulting build will be usable in either old
 or new boards. In old boards, the adaptor will sit in the kernal
@@ -21,6 +21,3 @@ socket, and plug into the basic and charset sockets to the left and
 right for the chip select signals. In new boards, the adaptor will sit
 in the combined kernal and basic socket, and only plug into the
 charset socket to the left.
-
-Note that this project is in an early stage of development. However, a
-working prototype for the old boards already exists.
