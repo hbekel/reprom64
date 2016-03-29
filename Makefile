@@ -1,4 +1,4 @@
-VERSION=1.0
+VERSION=1.1
 
 MD5SUM=md5sum
 ifeq ($(UNAME), Darwin)
@@ -19,3 +19,7 @@ clean:
 release: clean
 	git archive --prefix=reprom64-$(VERSION)/ -o ../reprom64-$(VERSION).tar.gz HEAD && \
 	$(MD5SUM) ../reprom64-$(VERSION).tar.gz > ../reprom64-$(VERSION).tar.gz.md5
+	make reprom.jed
+	mv reprom.jed ../reprom-firmware-$(VERSION).jed
+	$(MD5SUM) ../reprom-firmware-$(VERSION).jed > ../reprom-firmware-$(VERSION).jed.md5
+
