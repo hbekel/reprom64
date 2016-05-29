@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:reprom-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 27512 U1
+L 27512-RESCUE-reprom U1
 U 1 1 569CC8CC
 P 5700 2000
 F 0 "U1" H 5400 3050 70  0000 C CNN
@@ -357,32 +358,32 @@ K1
 $Comp
 L CONN_01X02 P6
 U 1 1 569CE3B5
-P 7350 3700
-F 0 "P6" H 7350 3850 50  0000 C CNN
-F 1 "CHARSET" V 7450 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7350 3700 60  0001 C CNN
-F 3 "" H 7350 3700 60  0000 C CNN
-	1    7350 3700
+P 7650 3700
+F 0 "P6" H 7650 3850 50  0000 C CNN
+F 1 "CHARSET" V 7750 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7650 3700 60  0001 C CNN
+F 3 "" H 7650 3700 60  0000 C CNN
+	1    7650 3700
 	0    -1   -1   0   
 $EndComp
-Text Label 7300 3900 3    60   ~ 0
+Text Label 7600 3900 3    60   ~ 0
 C0
-Text Label 7400 3900 3    60   ~ 0
+Text Label 7700 3900 3    60   ~ 0
 C1
 $Comp
 L CONN_01X02 P7
 U 1 1 569CE4F5
-P 6350 3700
-F 0 "P7" H 6350 3850 50  0000 C CNN
-F 1 "BASIC" V 6450 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6350 3700 60  0001 C CNN
-F 3 "" H 6350 3700 60  0000 C CNN
-	1    6350 3700
+P 6950 3700
+F 0 "P7" H 6950 3850 50  0000 C CNN
+F 1 "BASIC" V 7050 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6950 3700 60  0001 C CNN
+F 3 "" H 6950 3700 60  0000 C CNN
+	1    6950 3700
 	0    -1   -1   0   
 $EndComp
-Text Label 6300 3900 3    60   ~ 0
+Text Label 6900 3900 3    60   ~ 0
 B0
-Text Label 6400 3900 3    60   ~ 0
+Text Label 7000 3900 3    60   ~ 0
 B0
 Text Label 7250 2050 2    60   ~ 0
 KS
@@ -669,4 +670,26 @@ NoConn ~ 10350 2400
 NoConn ~ 10350 2200
 Text Label 10350 2300 0    60   ~ 0
 BS
+$Comp
+L CONN_01X01 P13
+U 1 1 574B08B5
+P 6150 3750
+F 0 "P13" H 6150 3850 50  0000 C CNN
+F 1 "GND" V 6250 3750 50  0000 C CNN
+F 2 "custom:Pin_Header_Straight_1x01" H 6150 3750 50  0001 C CNN
+F 3 "" H 6150 3750 50  0000 C CNN
+	1    6150 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 574B0AE9
+P 6150 3950
+F 0 "#PWR016" H 6150 3700 50  0001 C CNN
+F 1 "GND" H 6150 3800 50  0000 C CNN
+F 2 "" H 6150 3950 50  0000 C CNN
+F 3 "" H 6150 3950 50  0000 C CNN
+	1    6150 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
