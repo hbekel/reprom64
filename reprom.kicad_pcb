@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.0-rc2-stable)
 
   (general
     (links 84)
@@ -492,6 +492,11 @@
       (net 1 VCC))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_1x12.wrl
       (at (xyz 0 -0.55 -0.05))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x12.wrl
+      (at (xyz 0.6 -0.55 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
     )
@@ -1214,8 +1219,8 @@
   (segment (start 149.617004 112.256996) (end 149.617004 111.125) (width 0.25) (layer B.Cu) (net 33) (tstamp 569DE93A))
   (segment (start 149.617004 111.125) (end 149.617004 103.770004) (width 0.25) (layer B.Cu) (net 33) (tstamp 574B0729))
   (segment (start 149.4763 103.6293) (end 147.447 101.6) (width 0.25) (layer B.Cu) (net 33) (tstamp 569D1D32))
-  (segment (start 145.415 116.205) (end 145.415 115.822602) (width 0.25) (layer B.Cu) (net 34) (status C00000))
-  (segment (start 145.415 115.822602) (end 149.167002 112.0706) (width 0.25) (layer B.Cu) (net 34) (tstamp 574B0EA5) (status 400000))
+  (segment (start 145.415 116.205) (end 145.415 115.822602) (width 0.25) (layer B.Cu) (net 34))
+  (segment (start 145.415 115.822602) (end 149.167002 112.0706) (width 0.25) (layer B.Cu) (net 34) (tstamp 574B0EA5))
   (segment (start 149.167002 105.860002) (end 147.447 104.14) (width 0.25) (layer B.Cu) (net 34) (tstamp 569DE925))
   (segment (start 149.167002 112.0706) (end 149.167002 105.860002) (width 0.25) (layer B.Cu) (net 34) (tstamp 569DE921))
   (segment (start 146.683602 114.554) (end 149.167002 112.0706) (width 0.25) (layer B.Cu) (net 34) (tstamp 569DE91D))
