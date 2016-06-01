@@ -3,7 +3,7 @@
   (general
     (links 84)
     (no_connects 0)
-    (area 111.176999 77.394999 165.683001 118.185001)
+    (area 111.054999 47.061 187.578 121.752)
     (thickness 1.6)
     (drawings 31)
     (tracks 304)
@@ -13,6 +13,14 @@
   )
 
   (page A4)
+  (title_block
+    (title "Reprom64 - Replacement ROM Adapter for the C64")
+    (date 2016-05-31)
+    (rev 2)
+    (company "Henning Bekel")
+    (comment 1 http://www.henning-bekel.de/reprom64)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -1213,7 +1221,7 @@
   (segment (start 152.4 104.013) (end 147.447 99.06) (width 0.25) (layer B.Cu) (net 32) (tstamp 574B0703))
   (segment (start 152.146 103.759) (end 147.447 99.06) (width 0.25) (layer B.Cu) (net 32) (tstamp 574B0636))
   (segment (start 151.257 102.87) (end 147.447 99.06) (width 0.25) (layer B.Cu) (net 32) (tstamp 569D1D89))
-  (segment (start 147.32 116.205) (end 147.32 114.301398) (width 0.25) (layer B.Cu) (net 33) (status 400000))
+  (segment (start 147.32 116.205) (end 147.32 114.301398) (width 0.25) (layer B.Cu) (net 33))
   (segment (start 149.617004 112.004394) (end 149.617004 103.770004) (width 0.25) (layer B.Cu) (net 33) (tstamp 574D2A17))
   (segment (start 147.32 114.301398) (end 149.617004 112.004394) (width 0.25) (layer B.Cu) (net 33) (tstamp 574D2A15))
   (segment (start 149.617004 103.770004) (end 147.447 101.6) (width 0.25) (layer B.Cu) (net 33) (tstamp 569DE93D))

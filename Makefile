@@ -1,4 +1,4 @@
-VERSION=1.1
+VERSION=1.2
 
 MD5SUM=md5sum
 ifeq ($(UNAME), Darwin)

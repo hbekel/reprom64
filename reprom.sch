@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "reprom"
-Date ""
-Rev "1"
+Title "Reprom64 - Replacement ROM adapter for the C64"
+Date "2016-05-31"
+Rev "2"
 Comp "Henning Bekel"
-Comment1 "http://www.henning-bekel.de/reprom"
+Comment1 "http://www.henning-bekel.de/reprom64"
 Comment2 ""
 Comment3 ""
 Comment4 ""
