@@ -20,6 +20,6 @@ release: clean
 	git archive --prefix=reprom64-$(VERSION)/ -o ../reprom64-$(VERSION).tar.gz HEAD && \
 	$(MD5SUM) ../reprom64-$(VERSION).tar.gz > ../reprom64-$(VERSION).tar.gz.md5
 	make reprom.jed
-	mv reprom.jed ../reprom-firmware-$(VERSION).jed
-	$(MD5SUM) ../reprom-firmware-$(VERSION).jed > ../reprom-firmware-$(VERSION).jed.md5
+	mv reprom.jed ../reprom64-firmware-$(VERSION).jed
+	$(MD5SUM) ../reprom64-firmware-$(VERSION).jed > ../reprom64-firmware-$(VERSION).jed.md5
 
