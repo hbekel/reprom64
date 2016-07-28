@@ -692,4 +692,19 @@ F 3 "" H 6150 3950 50  0000 C CNN
 	1    6150 3950
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_01X02 P14
+U 1 1 57987F08
+P 9000 3700
+F 0 "P14" H 9000 3850 50  0000 C CNN
+F 1 "AUX" V 9100 3700 50  0000 C CNN
+F 2 "custom:Pin_Header_Straight_1x02" H 9000 3700 50  0001 C CNN
+F 3 "" H 9000 3700 50  0000 C CNN
+	1    9000 3700
+	0    -1   -1   0   
+$EndComp
+Text Label 8950 3900 3    60   ~ 0
+A5
+Text Label 9050 3900 3    60   ~ 0
+A8
 $EndSCHEMATC
