@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Reprom64 - Replacement ROM adapter for the C64"
-Date "2016-05-31"
-Rev "2"
+Date "2016-08-22"
+Rev "3"
 Comp "Henning Bekel"
 Comment1 "http://www.henning-bekel.de/reprom64"
 Comment2 ""

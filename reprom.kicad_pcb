@@ -3,7 +3,7 @@
   (general
     (links 86)
     (no_connects 0)
-    (area 111.176999 76.124999 165.683001 119.455001)
+    (area 111.054999 42.997001 187.704999 121.752)
     (thickness 1.6)
     (drawings 56)
     (tracks 392)
@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title "Reprom64 - Replacement ROM Adapter for the C64")
-    (date 2016-07-28)
+    (date 2016-08-22)
     (rev 3)
     (company "Henning Bekel")
     (comment 1 http://www.henning-bekel.de/reprom64)

@@ -1,4 +1,5 @@
-VERSION=1.2
+VERSION=1.3
+REVISION=3
 
 MD5SUM=md5sum
 ifeq ($(UNAME), Darwin)
@@ -22,4 +23,8 @@ release: clean
 	make reprom.jed
 	mv reprom.jed ../reprom64-firmware-$(VERSION).jed
 	$(MD5SUM) ../reprom64-firmware-$(VERSION).jed > ../reprom64-firmware-$(VERSION).jed.md5
+	make -C gerber reprom.zip
+	mv gerber/reprom.zip ../reprom64-gerber-r$(REVISION).zip
+	$(MD5SUM) ../reprom64-gerber-r$(REVISION).zip > ../reprom64-gerber-r$(REVISION).zip.md5
+
 
