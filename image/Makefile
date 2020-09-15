@@ -1,8 +1,8 @@
 .PHONY: all clean
 
 OBJECTS=k0.bin k1.bin k2.bin k3.bin \
+	b0.bin b1.bin \
 	c0.bin c1.bin c2.bin c3.bin \
-	b0.bin b1.bin
 
 all: image.bin
 
