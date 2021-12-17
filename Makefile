@@ -7,12 +7,18 @@ ifeq ($(UNAME), Darwin)
 endif
 
 ASM=galasm
-FLAGS=-c -f -p
+ASMFLAGS=-c -f -p
+
+MINIPRO=minipro
+MINIPROFLAGS=-p ATF16V8B -P
 
 all: reprom.jed
 
 reprom.jed: reprom.gal
-	$(ASM) $(FLAGS) reprom.gal
+	$(ASM) $(ASMFLAGS) reprom.gal
+
+program: reprom.jed
+	$(MINIPRO) $(MINIPROFLAGS) -w reprom.jed
 
 clean:
 	rm -f reprom.jed
